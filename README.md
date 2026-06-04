@@ -3,6 +3,7 @@ The repository contains the R scripts needed to run the data analysis.
 
 ## File Description
 The project contains three files, each containing a step in the data analysis.
+
 [The mann-segment file](https://github.com/FrameworkBenchFullStack-RepPack/benchmark-data-analysis/blob/main/mann-segment.R) runs Mann-Whitney U with segmentation on the data to determine the number of warmup rounds needed for the data to be statistically stable. 
 
 [The cochrans-split file](https://github.com/FrameworkBenchFullStack-RepPack/benchmark-data-analysis/blob/main/cochrans-split.R) runs Cochran's formula on the data. This can be done with a smaller subset to determine the number of repetitions.
